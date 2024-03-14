@@ -1,0 +1,114 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    position: relative;
+    background-image: url('../images/donateee.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    overflow-x: hidden;
+    align-items: center;
+}
+
+.headText {
+    margin-left: 1rem;
+    margin-top: 0rem;
+    color: white;
+    position: absolute;
+    /*top: 50%;*/
+    left: 20px;
+    font-weight: 100;
+    color: black;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    list-style: none;
+    height: 100%;
+    width: 25%;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.navlinks li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.navlinks li:hover {
+   text-decoration-line: underline ;
+   background-color: #BDA576;
+   line-height: 15px;
+}
+
+.links {
+    text-decoration: none ;
+    font-size: 1rem;
+    color: black;
+}*/
+/*.donation-page {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}*/
+form {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading {
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    transform: translate(10px, -50%);
+    transition: 1000ms linear
+}
+h2 {
+    text-align: center;
+    color: white ;
+    font-size: 1.5rem;
+}
+#donate {
+    align-items: center;
+    font-size: 16px;
+    padding: 16px;
+    margin: 12px;
+    margin-top: 15px;
+    background-color: #B18904;
+    border: none;
+    text-decoration: none ;
+    font-weight: bold;
+    color: black;
+    transition: 500ms linear;
+}
+.form {
+    opacity: 1;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2rem 5rem 0 rgba(252, 262, 270, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    /*transform: translate(10px, -2%);*/
+    transition: 1000ms ease-in
+}
+
+.form:hover {
+  background-color: rgba(25, 25, 25, 0.4);
+}
