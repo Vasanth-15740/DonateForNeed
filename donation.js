@@ -1,4 +1,4 @@
-   const heading = document.querySelector(".heading");
+const heading = document.querySelector(".heading");
 const discription = document.querySelector(".discription");
 const payButton = document.querySelector(".payment");
 const container = document.querySelector(".form");
